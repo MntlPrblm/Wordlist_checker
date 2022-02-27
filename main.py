@@ -24,7 +24,6 @@ def start():
         if password == users_password:
             print("Password in wordlist")
             quit()
-    clear()
     print("Password not in wordlist")
 
 
